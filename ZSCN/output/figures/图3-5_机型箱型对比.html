@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>图3-5 机型箱型对比</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="abaeb910b4a1453b88159b7e1f3064d3" class="chart-container" style="width:900px; height:600px; "></div>
+    <script>
+        var chart_abaeb910b4a1453b88159b7e1f3064d3 = echarts.init(
+            document.getElementById('abaeb910b4a1453b88159b7e1f3064d3'), 'light', {renderer: 'canvas', locale: 'ZH'});
+        var option_abaeb910b4a1453b88159b7e1f3064d3 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "boxplot",
+            "name": "\u5ef6\u8bef\u5206\u5e03",
+            "legendHoverLink": true,
+            "hoverAnimation": true,
+            "boxWidth": [
+                7,
+                50
+            ],
+            "selectedMode": false,
+            "data": [
+                [
+                    -50.0,
+                    5.0,
+                    12.0,
+                    30.0,
+                    179.0
+                ],
+                [
+                    -24.0,
+                    4.0,
+                    11.0,
+                    30.0,
+                    180.0
+                ],
+                [
+                    -12.0,
+                    2.75,
+                    12.0,
+                    45.0,
+                    171.0
+                ],
+                [
+                    -17.0,
+                    -4.0,
+                    7.0,
+                    24.25,
+                    157.0
+                ],
+                [
+                    -16.0,
+                    1.5,
+                    7.0,
+                    17.0,
+                    180.0
+                ]
+            ],
+            "label": {
+                "show": true,
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "markPoint": {},
+            "markLine": {
+                "silent": false,
+                "precision": 2,
+                "label": {
+                    "show": true,
+                    "margin": 8,
+                    "valueAnimation": false
+                }
+            },
+            "zlevel": 0,
+            "z": 2,
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "formatter":                 function(params) {                    var d = params.value;                    return params.name + '<br/>'                         + '\u6700\u5c0f\u503c: ' + d[0].toFixed(1) + '\u5206\u949f<br/>'                         + 'Q1: ' + d[1].toFixed(1) + '\u5206\u949f<br/>'                         + '\u4e2d\u4f4d\u6570: ' + d[2].toFixed(1) + '\u5206\u949f<br/>'                         + 'Q3: ' + d[3].toFixed(1) + '\u5206\u949f<br/>'                         + '\u6700\u5927\u503c: ' + d[4].toFixed(1) + '\u5206\u949f';                }            ,
+                "textStyle": {
+                    "fontFamily": "SimHei"
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "itemStyle": {
+                "color": null
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5ef6\u8bef\u5206\u5e03"
+            ],
+            "selected": {},
+            "show": true,
+            "top": "0%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "textStyle": {
+                "fontFamily": "SimHei"
+            },
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "name": "\u673a\u578b\u5206\u7c7b",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTextStyle": {
+                "fontFamily": "SimHei"
+            },
+            "axisLabel": {
+                "show": true,
+                "rotate": 15,
+                "margin": 8,
+                "fontFamily": "SimHei",
+                "valueAnimation": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "data": [
+                "A320\u7cfb\u5217",
+                "B737\u7cfb\u5217",
+                "E190\u652f\u7ebf",
+                "CRJ\u652f\u7ebf",
+                "ARJ21\u652f\u7ebf"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u5ef6\u8bef\u5206\u949f",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTextStyle": {
+                "fontFamily": "SimHei"
+            },
+            "axisLabel": {
+                "fontFamily": "SimHei"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": " ",
+            "target": "blank",
+            "subtext": "\u6570\u636e\u6e05\u6d17\u540e(|delayMin|\u2264180\u5206\u949f) | \u5f02\u5e38\u503c\u5f71\u54cd\u8be6\u89c1\u6b63\u6587",
+            "subtarget": "blank",
+            "left": "center",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+            "textStyle": {
+                "fontWeight": "bold",
+                "fontFamily": "SimHei",
+                "fontSize": 16
+            },
+            "subtextStyle": {
+                "fontFamily": "SimHei",
+                "fontSize": 12
+            }
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "inside",
+            "showDetail": true,
+            "showDataShadow": true,
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter",
+            "disabled": false,
+            "zoomOnMouseWheel": true,
+            "moveOnMouseMove": true,
+            "moveOnMouseWheel": true,
+            "preventDefaultMouseMove": true
+        },
+        {
+            "show": true,
+            "type": "slider",
+            "showDetail": true,
+            "showDataShadow": true,
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "5%",
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_abaeb910b4a1453b88159b7e1f3064d3.setOption(option_abaeb910b4a1453b88159b7e1f3064d3);
+    </script>
+</body>
+</html>

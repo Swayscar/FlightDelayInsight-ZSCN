@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>图3-3 航司正常率Top10</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="06ca765098cd4b7b8a2bc399d213bf9d" class="chart-container" style="width:900px; height:650px; "></div>
+    <script>
+        var chart_06ca765098cd4b7b8a2bc399d213bf9d = echarts.init(
+            document.getElementById('06ca765098cd4b7b8a2bc399d213bf9d'), 'light', {renderer: 'canvas', locale: 'ZH'});
+        var option_06ca765098cd4b7b8a2bc399d213bf9d = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u6b63\u5e38\u7387(%)",
+            "legendHoverLink": true,
+            "data": [
+                79.59,
+                79.78,
+                81.19,
+                85.12,
+                85.6,
+                86.22,
+                88.07,
+                90.62,
+                94.67,
+                96.15
+            ],
+            "realtimeSort": false,
+            "showBackground": false,
+            "stackStrategy": "samesign",
+            "cursor": "pointer",
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "color": "#333333",
+                "margin": 8,
+                "fontSize": 11,
+                "fontFamily": "SimHei",
+                "formatter": "{c}%",
+                "valueAnimation": false
+            },
+            "markLine": {
+                "silent": false,
+                "precision": 2,
+                "label": {
+                    "show": true,
+                    "position": "end",
+                    "color": "#7f8c8d",
+                    "margin": 8,
+                    "fontSize": 11,
+                    "fontFamily": "SimHei",
+                    "valueAnimation": false
+                },
+                "lineStyle": {
+                    "show": true,
+                    "width": 2,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "dashed",
+                    "color": "#95a5a6"
+                },
+                "data": [
+                    {
+                        "name": "\u6837\u672c\u6b63\u5e38\u7387 84.99%",
+                        "yAxis": 84.99
+                    }
+                ]
+            },
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "cross"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "formatter": null,
+                "textStyle": {
+                    "fontFamily": "SimHei"
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "itemStyle": {
+                "color":                 function(params) {                    return params.dataIndex === 5 ? '#e74c3c' : '#3498db';                }            
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6b63\u5e38\u7387(%)"
+            ],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontFamily": "SimHei"
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "name": "\u822a\u53f8\u4ee3\u7801",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTextStyle": {
+                "fontFamily": "SimHei"
+            },
+            "axisLabel": {
+                "show": true,
+                "margin": 8,
+                "fontSize": 11,
+                "fontFamily": "SimHei",
+                "valueAnimation": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "data": [
+                "CQH",
+                "CDG",
+                "CHH",
+                "CSC",
+                "CCA",
+                "CJX",
+                "CES",
+                "CSZ",
+                "OTC",
+                "CXA"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6b63\u5e38\u7387(%)",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "interval": 5,
+            "nameTextStyle": {
+                "fontFamily": "SimHei"
+            },
+            "axisLabel": {
+                "show": true,
+                "margin": 8,
+                "fontSize": 11,
+                "fontFamily": "SimHei",
+                "valueAnimation": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 50,
+            "max": 100,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "   \u822a\u53f8\u6b63\u5e38\u7387Top10\uff08\u822a\u73ed\u91cf\u2265100\u67b6\u6b21\uff09",
+            "target": "blank",
+            "subtext": "\u5224\u5b9a\u6807\u51c6: \u5ef6\u8bef\u226460\u5206\u949f | \u6837\u672c\u6b63\u5e38\u7387: 84.99% | \u6c5f\u897f\u822a\u7a7a(CJX)\u7ea2\u8272\u9ad8\u4eae",
+            "subtarget": "blank",
+            "left": "center",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+            "textStyle": {
+                "fontWeight": "bold",
+                "fontFamily": "SimHei",
+                "fontSize": 16
+            },
+            "subtextStyle": {
+                "fontFamily": "SimHei",
+                "fontSize": 11
+            }
+        }
+    ]
+};
+        chart_06ca765098cd4b7b8a2bc399d213bf9d.setOption(option_06ca765098cd4b7b8a2bc399d213bf9d);
+    </script>
+</body>
+</html>
